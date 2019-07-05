@@ -6,9 +6,11 @@ import Parent from './parent';
 import Conditional from './conditional';
 import List from './list'
 import registerServiceWorker from './registerServiceWorker';
+import FormClass from './form';
 const sample=[1,2,3]
 // ReactDOM.render(<div><Parent eligible={true}/><Parent/></div>, document.getElementById('root'));
 // ReactDOM.render(<Conditional name={'narendra'}/>,document.getElementById('root'))
-ReactDOM.render(<List sample={sample}/>,document.getElementById('root'))
+// ReactDOM.render(<List sample={sample}/>,document.getElementById('root'))
+ReactDOM.render(<FormClass/>,document.getElementById('root'))
 
 registerServiceWorker();
