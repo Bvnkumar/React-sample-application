@@ -23,4 +23,5 @@ class FormClass extends React.Component {
           </select> </form> </div>)
     }
 }
+
 export default FormClass;

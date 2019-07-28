@@ -44,4 +44,13 @@ function Welcome(props) {
         return (<p>These are not eligiable</p>)
     }
 }
-export default Parent;
+//export default Parent;
+
+//creating a react component using createClass
+const firstComp=React.createClass({
+    render:function(){
+        return (<div>Creating class using react class</div>)
+    }
+})
+
+export default firstComp;
